@@ -62,7 +62,7 @@ a {
 button {
     background-color: #3883F6;
     border-radius: 5px;
-    border: none;
+    border: 5px;
     padding: 5px;
     color: white;
 }
@@ -103,4 +103,19 @@ h1 {
 .author {
     align-self: flex-end;
     font-weight: bolder;
+}
+
+.call {
+    display: flex;
+    padding: 10px;
+    background-color: #3882F6;
+    justify-content: center;
+    gap: 40px;
+}
+
+.below-sign {
+    align-self: center;
+    border: white;
+    border-width: 5px;
+    background-color: #1F2937;
 }
